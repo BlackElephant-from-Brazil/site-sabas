@@ -14,12 +14,12 @@ const veiculosDB = {
         portaMalas: '505L',
         cambio: 'Automático 8v',
         seguranca: '5 estrelas',
-        imagemPrincipal: 'assets/images/vehicles/cars/xc60/WhatsApp-Image-2025-09-01-at-14.53.45.jpeg',
+        capa: 'assets/images/vehicles/cars/xc60/capa.png',
         galeria: [
-            { src: 'assets/images/vehicles/cars/xc60/WhatsApp-Image-2025-09-01-at-14.53.45.jpeg', alt: 'Volvo XC60 - Vista externa' },
-            { src: 'assets/images/vehicles/cars/xc60/WhatsApp-Image-2025-09-01-at-14.53.43.jpeg', alt: 'Volvo XC60 - Interior' },
-            { src: 'assets/images/vehicles/cars/xc60/WhatsApp-Image-2025-09-01-at-14.53.45-1.jpeg', alt: 'Volvo XC60 - Detalhe' },
-            { src: 'assets/images/vehicles/cars/xc60/WhatsApp-Image-2025-09-01-at-14.53.45-2.jpeg', alt: 'Volvo XC60 - Lateral' }
+            { src: 'assets/images/vehicles/cars/xc60/1.png', alt: 'Volvo XC60 - Foto 1' },
+            { src: 'assets/images/vehicles/cars/xc60/2.webp', alt: 'Volvo XC60 - Foto 2' },
+            { src: 'assets/images/vehicles/cars/xc60/3.png', alt: 'Volvo XC60 - Foto 3' },
+            { src: 'assets/images/vehicles/cars/xc60/4.jpeg', alt: 'Volvo XC60 - Foto 4' }
         ],
         diferenciais: [
             'Sistema de segurança Volvo City Safety',
@@ -39,12 +39,12 @@ const veiculosDB = {
         portaMalas: '448L',
         cambio: 'CVT Automático',
         seguranca: '5 estrelas',
-        imagemPrincipal: 'assets/images/vehicles/cars/eclipse/WhatsApp-Image-2025-09-01-at-14.53.27.jpeg',
+        capa: 'assets/images/vehicles/cars/eclipse/capa.png',
         galeria: [
-            { src: 'assets/images/vehicles/cars/eclipse/WhatsApp-Image-2025-09-01-at-14.53.27.jpeg', alt: 'Eclipse Cross - Vista externa' },
-            { src: 'assets/images/vehicles/cars/eclipse/WhatsApp-Image-2025-09-01-at-14.53.28.jpeg', alt: 'Eclipse Cross - Interior' },
-            { src: 'assets/images/vehicles/cars/eclipse/WhatsApp-Image-2025-09-01-at-14.53.29.jpeg', alt: 'Eclipse Cross - Detalhe' },
-            { src: 'assets/images/vehicles/cars/eclipse/WhatsApp-Image-2025-09-01-at-14.53.30.jpeg', alt: 'Eclipse Cross - Lateral' }
+            { src: 'assets/images/vehicles/cars/eclipse/1.jpeg', alt: 'Eclipse Cross - Foto 1' },
+            { src: 'assets/images/vehicles/cars/eclipse/2.jpeg', alt: 'Eclipse Cross - Foto 2' },
+            { src: 'assets/images/vehicles/cars/eclipse/3.jpeg', alt: 'Eclipse Cross - Foto 3' },
+            { src: 'assets/images/vehicles/cars/eclipse/4.jpeg', alt: 'Eclipse Cross - Foto 4' }
         ],
         diferenciais: [
             'Tração integral AWC (All Wheel Control)',
@@ -64,12 +64,12 @@ const veiculosDB = {
         portaMalas: '460L',
         cambio: 'CVT Automático',
         seguranca: '5 estrelas',
-        imagemPrincipal: 'assets/images/vehicles/cars/sentra/WhatsApp-Image-2024-07-19-at-10.28.15.jpeg',
+        capa: 'assets/images/vehicles/cars/sentra/capa.png',
         galeria: [
-            { src: 'assets/images/vehicles/cars/sentra/WhatsApp-Image-2024-07-19-at-10.28.15.jpeg', alt: 'Nissan Sentra - Vista externa' },
-            { src: 'assets/images/vehicles/cars/sentra/WhatsApp-Image-2024-07-19-at-10.28.14-1.jpeg', alt: 'Nissan Sentra - Interior' },
-            { src: 'assets/images/vehicles/cars/sentra/WhatsApp-Image-2024-07-19-at-10.28.14-4.jpeg', alt: 'Nissan Sentra - Painel' },
-            { src: 'assets/images/vehicles/cars/sentra/WhatsApp-Image-2024-07-19-at-10.28.11.jpeg', alt: 'Nissan Sentra - Banco traseiro' }
+            { src: 'assets/images/vehicles/cars/sentra/1.png', alt: 'Nissan Sentra - Foto 1' },
+            { src: 'assets/images/vehicles/cars/sentra/2.avif', alt: 'Nissan Sentra - Foto 2' },
+            { src: 'assets/images/vehicles/cars/sentra/3.jpg', alt: 'Nissan Sentra - Foto 3' },
+            { src: 'assets/images/vehicles/cars/sentra/4.png', alt: 'Nissan Sentra - Foto 4' }
         ],
         diferenciais: [
             'Design Zero Gravity nos bancos',
@@ -89,10 +89,12 @@ const veiculosDB = {
         portaMalas: '480L',
         cambio: 'CVT Automático',
         seguranca: '4 estrelas',
-        imagemPrincipal: 'assets/images/vehicles/cars/versa/WhatsApp-Image-2024-07-28-at-13.08.13.jpeg',
+        capa: 'assets/images/vehicles/cars/versa/capa.png',
         galeria: [
-            { src: 'assets/images/vehicles/cars/versa/WhatsApp-Image-2024-07-28-at-13.08.13.jpeg', alt: 'Nissan Versa - Vista externa' },
-            { src: 'assets/images/vehicles/cars/versa/WhatsApp-Image-2024-07-28-at-13.08.14.jpeg', alt: 'Nissan Versa - Interior' }
+            { src: 'assets/images/vehicles/cars/versa/1.jpeg', alt: 'Nissan Versa - Foto 1' },
+            { src: 'assets/images/vehicles/cars/versa/2.png', alt: 'Nissan Versa - Foto 2' },
+            { src: 'assets/images/vehicles/cars/versa/3.png', alt: 'Nissan Versa - Foto 3' },
+            { src: 'assets/images/vehicles/cars/versa/4.png', alt: 'Nissan Versa - Foto 4' }
         ],
         diferenciais: [
             'Motor 1.6 eficiente e econômico',
@@ -112,12 +114,12 @@ const veiculosDB = {
         portaMalas: 'Extra Grande',
         cambio: 'Automático 6v',
         seguranca: '4 estrelas',
-        imagemPrincipal: 'assets/images/vehicles/minivans/expert/WhatsApp-Image-2025-09-01-at-14.53.16.jpeg',
+        capa: 'assets/images/vehicles/minivans/expert/capa.png',
         galeria: [
-            { src: 'assets/images/vehicles/minivans/expert/WhatsApp-Image-2025-09-01-at-14.53.16.jpeg', alt: 'Peugeot Expert - Vista externa' },
-            { src: 'assets/images/vehicles/minivans/expert/WhatsApp-Image-2025-09-01-at-14.53.16-1.jpeg', alt: 'Peugeot Expert - Interior' },
-            { src: 'assets/images/vehicles/minivans/expert/WhatsApp-Image-2025-09-01-at-14.53.16-2.jpeg', alt: 'Peugeot Expert - Bancos' },
-            { src: 'assets/images/vehicles/minivans/expert/WhatsApp-Image-2025-09-01-at-14.53.17.jpeg', alt: 'Peugeot Expert - Lateral' }
+            { src: 'assets/images/vehicles/minivans/expert/1.png', alt: 'Peugeot Expert - Foto 1' },
+            { src: 'assets/images/vehicles/minivans/expert/2.jpeg', alt: 'Peugeot Expert - Foto 2' },
+            { src: 'assets/images/vehicles/minivans/expert/3.jpeg', alt: 'Peugeot Expert - Foto 3' },
+            { src: 'assets/images/vehicles/minivans/expert/4.jpeg', alt: 'Peugeot Expert - Foto 4' }
         ],
         diferenciais: [
             'Configuração para até 8 passageiros',
@@ -137,12 +139,12 @@ const veiculosDB = {
         portaMalas: 'Bagageiro amplo',
         cambio: 'Automático 7G-Tronic',
         seguranca: '5 estrelas',
-        imagemPrincipal: 'assets/images/vehicles/vans/sprinter/WhatsApp-Image-2025-09-01-at-14.53.34.jpeg',
+        capa: 'assets/images/vehicles/vans/sprinter/capa.png',
         galeria: [
-            { src: 'assets/images/vehicles/vans/sprinter/WhatsApp-Image-2025-09-01-at-14.53.34.jpeg', alt: 'Mercedes Sprinter - Vista externa' },
-            { src: 'assets/images/vehicles/vans/sprinter/WhatsApp-Image-2025-09-01-at-14.53.35.jpeg', alt: 'Mercedes Sprinter - Interior' },
-            { src: 'assets/images/vehicles/vans/sprinter/WhatsApp-Image-2025-09-01-at-14.53.35-1.jpeg', alt: 'Mercedes Sprinter - Bancos' },
-            { src: 'assets/images/vehicles/vans/sprinter/WhatsApp-Image-2025-09-01-at-14.53.36.jpeg', alt: 'Mercedes Sprinter - Traseira' }
+            { src: 'assets/images/vehicles/vans/sprinter/1.jpeg', alt: 'Mercedes Sprinter - Foto 1' },
+            { src: 'assets/images/vehicles/vans/sprinter/2.png', alt: 'Mercedes Sprinter - Foto 2' },
+            { src: 'assets/images/vehicles/vans/sprinter/3.jpeg', alt: 'Mercedes Sprinter - Foto 3' },
+            { src: 'assets/images/vehicles/vans/sprinter/4.jpeg', alt: 'Mercedes Sprinter - Foto 4' }
         ],
         diferenciais: [
             'Padrão Mercedes-Benz de qualidade',
@@ -162,11 +164,12 @@ const veiculosDB = {
         portaMalas: 'Bagageiro XL',
         cambio: 'Manual 6v',
         seguranca: '4 estrelas',
-        imagemPrincipal: 'assets/images/vehicles/vans/master/WhatsApp-Image-2025-09-01-at-14.53.47-3.jpeg',
+        capa: 'assets/images/vehicles/vans/master/capa.png',
         galeria: [
-            { src: 'assets/images/vehicles/vans/master/WhatsApp-Image-2025-09-01-at-14.53.47-3.jpeg', alt: 'Renault Master - Vista externa' },
-            { src: 'assets/images/vehicles/vans/master/WhatsApp-Image-2025-09-01-at-14.53.46.jpeg', alt: 'Renault Master - Interior' },
-            { src: 'assets/images/vehicles/vans/master/WhatsApp-Image-2025-09-01-at-14.53.46-2.jpeg', alt: 'Renault Master - Bancos' }
+            { src: 'assets/images/vehicles/vans/master/1.png', alt: 'Renault Master - Foto 1' },
+            { src: 'assets/images/vehicles/vans/master/2.png', alt: 'Renault Master - Foto 2' },
+            { src: 'assets/images/vehicles/vans/master/3.webp', alt: 'Renault Master - Foto 3' },
+            { src: 'assets/images/vehicles/vans/master/4.jpeg', alt: 'Renault Master - Foto 4' }
         ],
         diferenciais: [
             'Maior capacidade da frota (16 passageiros)',
@@ -197,7 +200,7 @@ document.addEventListener('DOMContentLoaded', function() {
         if (!veiculo) return;
         
         // Atualizar título da página
-        document.title = `${veiculo.nome} | Sabas Locadora de Veículos`;
+        document.title = `${veiculo.nome} | S.Sabas Locadora`;
         
         // Atualizar breadcrumb
         const breadcrumbAtual = document.querySelector('.hero-interno__breadcrumb span:last-child');
@@ -304,7 +307,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 return `
                     <article class="card">
                         <div class="card__imagem">
-                            <img src="${rel.imagemPrincipal}" alt="${rel.nome}" loading="lazy">
+                            <img src="${rel.capa}" alt="${rel.nome}" loading="lazy">
                         </div>
                         <div class="card__conteudo">
                             <span class="card__tag">${rel.categoria}</span>

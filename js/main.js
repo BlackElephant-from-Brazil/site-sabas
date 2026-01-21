@@ -202,21 +202,33 @@ document.addEventListener('DOMContentLoaded', function() {
         // Atualizar título da página
         document.title = `${veiculo.nome} | S.Sabas Locadora`;
         
-        // Atualizar breadcrumb
-        const breadcrumbAtual = document.querySelector('.hero-interno__breadcrumb span:last-child');
-        if (breadcrumbAtual) {
-            breadcrumbAtual.textContent = veiculo.nome;
+        // Atualizar breadcrumb (último span dentro do breadcrumb)
+        const breadcrumbItems = document.querySelectorAll('.breadcrumb span[aria-current="page"]');
+        if (breadcrumbItems.length > 0) {
+            breadcrumbItems[0].textContent = veiculo.nome;
         }
         
-        // Atualizar título
-        const tituloVeiculo = document.querySelector('.hero-interno__titulo');
-        if (tituloVeiculo) {
-            tituloVeiculo.textContent = veiculo.nome;
+        // Atualizar título h1 do page-header
+        const tituloH1 = document.querySelector('.page-header h1');
+        if (tituloH1) {
+            // Separar o nome em palavras para destacar a última
+            const palavras = veiculo.nome.split(' ');
+            if (palavras.length > 1) {
+                const ultimaPalavra = palavras.pop();
+                tituloH1.innerHTML = `${palavras.join(' ')} <span class="texto-destaque">${ultimaPalavra}</span>`;
+            } else {
+                tituloH1.textContent = veiculo.nome;
+            }
+        }
+        
+        // Atualizar descrição do page-header
+        const descricaoHeader = document.querySelector('.page-header p');
+        if (descricaoHeader) {
+            descricaoHeader.textContent = veiculo.descricao.substring(0, 60) + '...';
         }
         
         // Atualizar tag de categoria
-        const tagCategoria = document.querySelector('.carro-galeria__principal + .card__tag, .carro-info .card__tag');
-        const tagElement = document.querySelector('.card__tag');
+        const tagElement = document.querySelector('.carro-info__categoria');
         if (tagElement) {
             tagElement.textContent = veiculo.categoria;
         }
@@ -258,37 +270,32 @@ document.addEventListener('DOMContentLoaded', function() {
         }
         
         // Atualizar nome do veículo na seção de info
-        const nomeVeiculo = document.querySelector('.carro-info h2');
+        const nomeVeiculo = document.querySelector('.carro-info__titulo');
         if (nomeVeiculo) {
             nomeVeiculo.textContent = veiculo.nome;
         }
         
         // Atualizar descrição
-        const descricaoVeiculo = document.querySelector('.carro-info > p');
+        const descricaoVeiculo = document.querySelector('.carro-info__descricao');
         if (descricaoVeiculo) {
             descricaoVeiculo.textContent = veiculo.descricao;
         }
         
         // Atualizar especificações
-        const especificacoes = document.querySelectorAll('.carro-specs__item');
+        const especificacoes = document.querySelectorAll('.carro-spec');
         if (especificacoes.length >= 4) {
-            especificacoes[0].querySelector('span:last-child').textContent = `${veiculo.passageiros} passageiros`;
-            especificacoes[1].querySelector('span:last-child').textContent = veiculo.portaMalas;
-            especificacoes[2].querySelector('span:last-child').textContent = veiculo.cambio;
-            especificacoes[3].querySelector('span:last-child').textContent = veiculo.seguranca;
+            especificacoes[0].querySelector('.carro-spec__valor').textContent = `${veiculo.passageiros} pessoas`;
+            especificacoes[1].querySelector('.carro-spec__valor').textContent = veiculo.portaMalas;
+            especificacoes[2].querySelector('.carro-spec__valor').textContent = veiculo.cambio;
+            especificacoes[3].querySelector('.carro-spec__valor').textContent = veiculo.seguranca;
         }
         
-        // Atualizar diferenciais
-        const diferenciaisList = document.querySelector('.carro-diferenciais ul');
-        if (diferenciaisList) {
-            diferenciaisList.innerHTML = veiculo.diferenciais.map(item => 
-                `<li><i data-feather="check"></i> ${item}</li>`
+        // Atualizar diferenciais/recursos
+        const recursosLista = document.querySelector('.carro-recursos__lista');
+        if (recursosLista && veiculo.diferenciais) {
+            recursosLista.innerHTML = veiculo.diferenciais.map(item => 
+                `<li class="carro-recursos__item">${item}</li>`
             ).join('');
-            
-            // Re-renderizar ícones feather
-            if (typeof feather !== 'undefined') {
-                feather.replace();
-            }
         }
         
         // Atualizar link do WhatsApp

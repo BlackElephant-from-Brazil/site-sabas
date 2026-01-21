@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <!-- SEO Meta Tags -->
+    <title>Veículos | Sabas Locadora - Frota Executiva em Valinhos SP</title>
+    <meta name="description" content="Conheça nossa frota de veículos executivos: sedans de luxo, vans e microvans. Veículos modernos com Wi-Fi, ar-condicionado e motorista particular.">
+    <meta name="keywords" content="frota executiva, aluguel de carros, van executiva, sedan de luxo, transporte corporativo, Valinhos SP">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://sabaslocadora.com.br/carros.html">
+    
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://sabaslocadora.com.br/carros.html">
+    <meta property="og:title" content="Veículos | Sabas Locadora de Veículos">
+    <meta property="og:description" content="Conheça nossa frota de veículos executivos para transporte corporativo.">
+    <meta property="og:image" content="assets/images/vehicles/cars/xc60/WhatsApp-Image-2025-09-01-at-14.53.45.jpeg">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/images/cropped-Vector-1-2.png">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+    
+    <!-- Feather Icons -->
+    <script src="https://unpkg.com/feather-icons"></script>>
+    
+    <!-- Schema.org -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "ItemList",
+        "name": "Frota de Veículos Sabas Locadora",
+        "description": "Veículos executivos para locação em Valinhos SP",
+        "numberOfItems": 4,
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@type": "Vehicle",
+                    "name": "Nissan Sentra",
+                    "brand": "Nissan",
+                    "model": "Sentra",
+                    "vehicleConfiguration": "Sedan Executivo",
+                    "seatingCapacity": 5
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@type": "Vehicle",
+                    "name": "Mercedes-Benz Classe C",
+                    "brand": "Mercedes-Benz",
+                    "model": "Classe C",
+                    "vehicleConfiguration": "Sedan de Luxo",
+                    "seatingCapacity": 5
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@type": "Vehicle",
+                    "name": "Van Executiva",
+                    "vehicleConfiguration": "Van para Grupos",
+                    "seatingCapacity": 9
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@type": "Vehicle",
+                    "name": "Peugeot Traveller",
+                    "brand": "Peugeot",
+                    "model": "Traveller",
+                    "vehicleConfiguration": "Microvan",
+                    "seatingCapacity": 7
+                }
+            }
+        ]
+    }
+    </script>
+</head>
+<body>
+    <!-- ========== HEADER ========== -->
+    <header class="header" role="banner">
+        <div class="container header__inner">
+            <a href="index.html" class="logo" aria-label="Sabas Locadora - Página Inicial">
+                <img src="assets/images/cropped-Vector-1-2.png" alt="Sabas Locadora" height="40">
+                <span>S.Sabas Locadora</span>
+            </a>
+            
+            <button class="menu-toggle" aria-label="Abrir menu" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            
+            <nav class="nav" role="navigation" aria-label="Menu principal">
+                <ul class="nav__lista">
+                    <li><a href="index.html" class="nav__link">Home</a></li>
+                    <li><a href="carros.html" class="nav__link nav__link--ativo">Veículos</a></li>
+                    <li><a href="categorias.html" class="nav__link">Categorias</a></li>
+                    <li><a href="quem-somos.html" class="nav__link">Quem Somos</a></li>
+                    <li><a href="contato.html" class="nav__link">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- ========== PAGE HEADER ========== -->
+        <section class="page-header">
+            <div class="container">
+                <nav class="breadcrumb" aria-label="Breadcrumb">
+                    <a href="index.html">Home</a>
+                    <span>/</span>
+                    <span aria-current="page">Veículos</span>
+                </nav>
+                <h1>Nossa <span class="texto-destaque">Frota</span></h1>
+                <p>Veículos modernos e confortáveis para todas as suas necessidades de transporte executivo.</p>
+            </div>
+        </section>
+
+        <!-- ========== FILTROS ========== -->
+        <section class="secao">
+            <div class="container">
+                <div class="filtros" role="group" aria-label="Filtrar veículos por categoria">
+                    <button class="filtro-btn ativo" data-filtro="todos">Todos</button>
+                    <button class="filtro-btn" data-filtro="executivo">Carros</button>
+                    <button class="filtro-btn" data-filtro="minivan">Minivan</button>
+                    <button class="filtro-btn" data-filtro="van">Van</button>
+                </div>
+                
+                <div class="grid grid--3">
+                    <!-- ========== CARROS EXECUTIVOS ========== -->
+                    
+                    <!-- Volvo XC60 -->
+                    <article class="card" data-categoria="executivo">
+                        <div class="card__imagem">
+                            <img src="assets/images/vehicles/cars/xc60/WhatsApp-Image-2025-09-01-at-14.53.43.jpeg" 
+                                 alt="Volvo XC60 - SUV executivo premium"
+                                 loading="lazy">
+                        </div>
+                        <div class="card__conteudo">
+                            <span class="card__tag">Executivo</span>
+                            <h2 class="card__titulo">Volvo XC60</h2>
+                            <p class="card__descricao">
+                                SUV premium sueco com o mais alto padrão de segurança do mercado. 
+                                Interior em couro, tecnologia de ponta e conforto incomparável.
+                            </p>
+                            <div class="card__info">
+                                <span class="card__info-item"><i data-feather="users"></i> 4 passageiros</span>
+                                <span class="card__info-item"><i data-feather="shield"></i> Máx. segurança</span>
+                                <span class="card__info-item"><i data-feather="wind"></i> Climatização</span>
+                                <span class="card__info-item"><i data-feather="wifi"></i> Wi-Fi</span>
+                            </div>
+                            <a href="carro.html?id=volvo-xc60" class="btn btn--primario btn--bloco">
+                                Ver Detalhes
+                            </a>
+                        </div>
+                    </article>
+                    
+                    <!-- Mitsubishi Eclipse Cross -->
+                    <article class="card" data-categoria="executivo">
+                        <div class="card__imagem">
+                            <img src="assets/images/vehicles/cars/eclipse/WhatsApp-Image-2025-09-01-at-14.53.27.jpeg" 
+                                 alt="Mitsubishi Eclipse Cross - SUV compacto"
+                                 loading="lazy">
+                        </div>
+                        <div class="card__conteudo">
+                            <span class="card__tag">Executivo</span>
+                            <h2 class="card__titulo">Mitsubishi Eclipse Cross</h2>
+                            <p class="card__descricao">
+                                SUV compacto com design arrojado e excelente desempenho. 
+                                Perfeito para viagens executivas com estilo e conforto.
+                            </p>
+                            <div class="card__info">
+                                <span class="card__info-item"><i data-feather="users"></i> 4 passageiros</span>
+                                <span class="card__info-item"><i data-feather="wind"></i> Ar-condicionado</span>
+                                <span class="card__info-item"><i data-feather="briefcase"></i> Porta-malas</span>
+                                <span class="card__info-item"><i data-feather="wifi"></i> Wi-Fi</span>
+                            </div>
+                            <a href="carro.html?id=eclipse-cross" class="btn btn--primario btn--bloco">
+                                Ver Detalhes
+                            </a>
+                        </div>
+                    </article>
+                    
+                    <!-- Nissan Sentra -->
+                    <article class="card" data-categoria="executivo">
+                        <div class="card__imagem">
+                            <img src="assets/images/vehicles/cars/sentra/WhatsApp-Image-2024-07-19-at-10.28.15.jpeg" 
+                                 alt="Nissan Sentra - Sedan executivo"
+                                 loading="lazy">
+                        </div>
+                        <div class="card__conteudo">
+                            <span class="card__tag">Executivo</span>
+                            <h2 class="card__titulo">Nissan Sentra</h2>
+                            <p class="card__descricao">
+                                Sedan executivo com design sofisticado, amplo espaço interno 
+                                e acabamento premium. Ideal para viagens de negócios.
+                            </p>
+                            <div class="card__info">
+                                <span class="card__info-item"><i data-feather="users"></i> 4 passageiros</span>
+                                <span class="card__info-item"><i data-feather="wind"></i> Ar-condicionado</span>
+                                <span class="card__info-item"><i data-feather="briefcase"></i> Porta-malas 460L</span>
+                                <span class="card__info-item"><i data-feather="wifi"></i> Wi-Fi</span>
+                            </div>
+                            <a href="carro.html?id=nissan-sentra" class="btn btn--primario btn--bloco">
+                                Ver Detalhes
+                            </a>
+                        </div>
+                    </article>
+                    
+                    <!-- Nissan Versa -->
+                    <article class="card" data-categoria="executivo">
+                        <div class="card__imagem">
+                            <img src="assets/images/vehicles/cars/versa/WhatsApp-Image-2024-07-28-at-13.08.13.jpeg" 
+                                 alt="Nissan Versa - Sedan compacto"
+                                 loading="lazy">
+                        </div>
+                        <div class="card__conteudo">
+                            <span class="card__tag">Executivo</span>
+                            <h2 class="card__titulo">Nissan Versa</h2>
+                            <p class="card__descricao">
+                                Sedan compacto com excelente custo-benefício. Confortável, 
+                                econômico e ideal para trajetos urbanos e intermunicipais.
+                            </p>
+                            <div class="card__info">
+                                <span class="card__info-item"><i data-feather="users"></i> 4 passageiros</span>
+                                <span class="card__info-item"><i data-feather="wind"></i> Ar-condicionado</span>
+                                <span class="card__info-item"><i data-feather="briefcase"></i> Porta-malas</span>
+                                <span class="card__info-item"><i data-feather="wifi"></i> Wi-Fi</span>
+                            </div>
+                            <a href="carro.html?id=nissan-versa" class="btn btn--primario btn--bloco">
+                                Ver Detalhes
+                            </a>
+                        </div>
+                    </article>
+                    
+                    <!-- ========== MINIVAN ========== -->
+                    
+                    <!-- Peugeot Expert -->
+                    <article class="card" data-categoria="minivan">
+                        <div class="card__imagem">
+                            <img src="assets/images/vehicles/minivans/expert/WhatsApp-Image-2025-09-01-at-14.53.16.jpeg" 
+                                 alt="Peugeot Expert - Minivan executiva"
+                                 loading="lazy">
+                        </div>
+                        <div class="card__conteudo">
+                            <span class="card__tag">Minivan</span>
+                            <h2 class="card__titulo">Peugeot Expert</h2>
+                            <p class="card__descricao">
+                                Minivan versátil e espaçosa. Perfeita para pequenos grupos, 
+                                famílias ou equipes corporativas com bagagem.
+                            </p>
+                            <div class="card__info">
+                                <span class="card__info-item"><i data-feather="users"></i> 8 passageiros</span>
+                                <span class="card__info-item"><i data-feather="briefcase"></i> Porta-malas XL</span>
+                                <span class="card__info-item"><i data-feather="wind"></i> Ar-condicionado</span>
+                                <span class="card__info-item"><i data-feather="wifi"></i> Wi-Fi</span>
+                            </div>
+                            <a href="carro.html?id=peugeot-expert" class="btn btn--primario btn--bloco">
+                                Ver Detalhes
+                            </a>
+                        </div>
+                    </article>
+                    
+                    <!-- ========== VANS ========== -->
+                    
+                    <!-- Mercedes Sprinter -->
+                    <article class="card" data-categoria="van">
+                        <div class="card__imagem">
+                            <img src="assets/images/vehicles/vans/sprinter/WhatsApp-Image-2025-09-01-at-14.53.34.jpeg" 
+                                 alt="Mercedes Sprinter - Van executiva"
+                                 loading="lazy">
+                        </div>
+                        <div class="card__conteudo">
+                            <span class="card__tag">Van</span>
+                            <h2 class="card__titulo">Mercedes Sprinter</h2>
+                            <p class="card__descricao">
+                                Van executiva de alto padrão. Espaçosa, confortável e ideal 
+                                para grupos, eventos corporativos e traslados de aeroporto.
+                            </p>
+                            <div class="card__info">
+                                <span class="card__info-item"><i data-feather="users"></i> 15 passageiros</span>
+                                <span class="card__info-item"><i data-feather="wind"></i> Ar-condicionado</span>
+                                <span class="card__info-item"><i data-feather="briefcase"></i> Bagageiro</span>
+                                <span class="card__info-item"><i data-feather="wifi"></i> Wi-Fi</span>
+                            </div>
+                            <a href="carro.html?id=sprinter" class="btn btn--primario btn--bloco">
+                                Ver Detalhes
+                            </a>
+                        </div>
+                    </article>
+                    
+                    <!-- Renault Master -->
+                    <article class="card" data-categoria="van">
+                        <div class="card__imagem">
+                            <img src="assets/images/vehicles/vans/master/WhatsApp-Image-2025-09-01-at-14.53.47-3.jpeg" 
+                                 alt="Renault Master - Van executiva"
+                                 loading="lazy">
+                        </div>
+                        <div class="card__conteudo">
+                            <span class="card__tag">Van</span>
+                            <h2 class="card__titulo">Renault Master</h2>
+                            <p class="card__descricao">
+                                Van robusta e espaçosa para transporte de grupos. 
+                                Conforto e praticidade para eventos e viagens corporativas.
+                            </p>
+                            <div class="card__info">
+                                <span class="card__info-item"><i data-feather="users"></i> 16 passageiros</span>
+                                <span class="card__info-item"><i data-feather="wind"></i> Ar-condicionado</span>
+                                <span class="card__info-item"><i data-feather="briefcase"></i> Bagageiro</span>
+                                <span class="card__info-item"><i data-feather="wifi"></i> Wi-Fi</span>
+                            </div>
+                            <a href="carro.html?id=renault-master" class="btn btn--primario btn--bloco">
+                                Ver Detalhes
+                            </a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========== CTA ========== -->
+        <section class="cta">
+            <div class="container">
+                <h2>Não encontrou o veículo ideal?</h2>
+                <p>
+                    Entre em contato conosco e montaremos uma solução personalizada 
+                    para sua necessidade de transporte.
+                </p>
+                <div class="hero__btns flex--center">
+                    <a href="https://wa.me/5519999999999?text=Olá! Gostaria de saber mais sobre os veículos disponíveis." 
+                       class="btn btn--whatsapp btn--grande"
+                       target="_blank"
+                       rel="noopener noreferrer">
+                        <i data-feather="message-circle"></i> Fale pelo WhatsApp
+                    </a>
+                    <a href="contato.html" class="btn btn--secundario btn--grande">
+                        Solicitar Orçamento
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ========== FOOTER ========== -->
+    <footer class="footer" role="contentinfo">
+        <div class="container">
+            <div class="footer__grid">
+                <div class="footer__col">
+                    <div class="footer__logo">
+                        <img src="assets/images/cropped-Vector-1-2.png" alt="Sabas Locadora" height="36" style="filter: brightness(0) invert(1);">
+                    </div>
+                    <p class="footer__descricao">
+                        Transporte executivo de excelência em Valinhos e região. 
+                        Mais de 10 anos de experiência em traslados, eventos 
+                        corporativos e viagens empresariais.
+                    </p>
+                </div>
+                
+                <div class="footer__col">
+                    <h4 class="footer__titulo">Links Rápidos</h4>
+                    <ul class="footer__lista">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="carros.html">Veículos</a></li>
+                        <li><a href="categorias.html">Categorias</a></li>
+                        <li><a href="quem-somos.html">Quem Somos</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer__col">
+                    <h4 class="footer__titulo">Serviços</h4>
+                    <ul class="footer__lista">
+                        <li><a href="carros.html">Transporte Executivo</a></li>
+                        <li><a href="carros.html">Traslado Aeroporto</a></li>
+                        <li><a href="carros.html">Eventos Corporativos</a></li>
+                        <li><a href="carros.html">Viagens Intermunicipais</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer__col">
+                    <h4 class="footer__titulo">Contato</h4>
+                    <ul class="footer__lista">
+                        <li><i data-feather="map-pin" style="width:14px;height:14px;display:inline;vertical-align:middle;margin-right:4px;"></i> Av. Independência, 1500</li>
+                        <li>Valinhos - SP, 13270-000</li>
+                        <li><i data-feather="phone" style="width:14px;height:14px;display:inline;vertical-align:middle;margin-right:4px;"></i> (19) 99999-9999</li>
+                        <li><i data-feather="mail" style="width:14px;height:14px;display:inline;vertical-align:middle;margin-right:4px;"></i> contato@sabaslocadora.com.br</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer__bottom">
+                <p class="footer__copy">
+                    © <span class="ano-atual">2026</span> Sabas Locadora de Veículos. 
+                    Todos os direitos reservados.
+                </p>
+                <div class="footer__social">
+                    <a href="https://instagram.com/sabaslocadora" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                        <i data-feather="instagram"></i>
+                    </a>
+                    <a href="https://facebook.com/sabaslocadora" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+                        <i data-feather="facebook"></i>
+                    </a>
+                    <a href="https://wa.me/5519999999999" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
+                        <i data-feather="message-circle"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+    <script>feather.replace()</script>
+</body>
+</html>

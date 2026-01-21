@@ -1,0 +1,15 @@
+# Robots.txt - Sabas Locadora de Veículos
+# https://sabaslocadora.com.br
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://sabaslocadora.com.br/sitemap.xml
+
+# Crawl-delay (opcional, para não sobrecarregar o servidor)
+Crawl-delay: 1
+
+# Bloquear diretórios desnecessários
+Disallow: /css/
+Disallow: /js/

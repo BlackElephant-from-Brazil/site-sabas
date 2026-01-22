@@ -114,9 +114,9 @@ const veiculosDB = {
         portaMalas: 'Extra Grande',
         cambio: 'Automático 6v',
         seguranca: '4 estrelas',
-        capa: 'assets/images/vehicles/minivans/expert/capa.png',
+        capa: 'assets/images/vehicles/minivans/expert/capa.jpeg',
         galeria: [
-            { src: 'assets/images/vehicles/minivans/expert/1.png', alt: 'Peugeot Expert - Foto 1' },
+            { src: 'assets/images/vehicles/minivans/expert/1.jpeg', alt: 'Peugeot Expert - Foto 1' },
             { src: 'assets/images/vehicles/minivans/expert/2.jpeg', alt: 'Peugeot Expert - Foto 2' },
             { src: 'assets/images/vehicles/minivans/expert/3.jpeg', alt: 'Peugeot Expert - Foto 3' },
             { src: 'assets/images/vehicles/minivans/expert/4.jpeg', alt: 'Peugeot Expert - Foto 4' }
